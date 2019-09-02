@@ -64,7 +64,6 @@ if(z == 2)
     {
 
     x = strcmp (name ,name_holder) ;/*If input result will match with the saved result in file  strcmp will return "0"*/
-    printf("%d",x) ;
     if (x == 0 )
     {
       fclose(fp) ;/*closing file "name.txt" from buffer */
